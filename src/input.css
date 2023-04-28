@@ -1,0 +1,24 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #353B50;
+    background-color: white
+}
+
+
+@tailwind base;
+@tailwind components;
+
+h1{
+    @apply font-extrabold text-3xl text-brand
+}
+
+a{
+ @apply text-blue-500 hover:text-brand hover:underline
+}
+
+.btn{
+    @apply bg-[#FDC40F] text-[#164398] text-center py-4 px-7 rounded-full hover:bg-[#164398] hover:text-white transition
+}
+
+@tailwind utilities;

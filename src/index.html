@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/dist/output.css">
+</head>
+<body class=>
+    <nav class="bg-[#164398] h-14 max-w-full flex justify-center items-center	">
+        <div>
+            <img src="/images/logo_st_barth_commuter.png" alt="logo" class="h-9">
+        </div>
+    </nav>
+    <div class="relative">
+        <section id="main-image">
+            <div><img src="/images/pano.jpg" alt="ile de Saint Barth vue du ciel" class="mx-auto"></div>
+        </section>
+        <section id="reservation-module" class="relative z-10 -mt-5 ">
+            <div class=" rounded-3xl px-6 bg-white pb-4">
+                <div class="max-w-lg mx-auto">
+                    <h1 class="text-2xl text-center py-6 text-[#164398] font-medium">Réservez vos vols</h1>
+                    <div class="flex justify-around border border-gray-300 mb-5 py-3 rounded-3xl text-gray-500">
+                        <div>Vols Réguliers</div>
+                        <div>Vols Privés</div>
+                    </div>
+                    <div class="flex flex-wrap justify-start">
+                        <div class="mr-5 mb-1">
+                            <input type="radio" id="simple" name="sens" value="aller simple" checked>
+                            <label class="pl-1" for="simple">Aller simple</label>
+                        </div>
+                        <div class="mr-5 mb-1">
+                            <input type="radio" id="aller-retour" name="sens" value="aller retour">
+                            <label class="pl-1" for="aller-retour">Aller Retour</label>
+                        </div>
+                        <div class="mr-5 mb-1">
+                            <input type="radio" id="multiple" name="sens" value="multiple">
+                            <label class="pl-1" for="multiple">Multi-destinations</label>
+                        </div>
+                    </div>
+                    <div class="mt-4 space-y-3"> 
+                        <div class="flex items-center border border-gray-300 rounded-md bg-white"> 
+                            <span><img src="/images/deco.png" alt="avion decollage" width="30" height="30" class="ml-1">
+                            </span>   
+                            <select id="airport-from" class="bg-white border-0 text-gray-500 w-full p-2.5"> 
+                                <option selected>De</option>
+                                <option value="US">St Barth (SBH)</option>
+                                <option value="CA">St Maarten Juliana (SXM)</option>
+                                <option value="FR">St Martin Grand Case (SFG)</option>
+                                <option value="DE">Guadeloupe (PTP)</option>
+                            </select>
+                        </div>
+                        <div class="flex items-center border border-gray-300 rounded-md bg-white">    
+                            <span><img src="/images/atter.png" alt="avion decollage" width="30" height="30" class="ml-1">
+                            </span>   
+                            <select id="airport-from" class="bg-white border-0 text-gray-500 w-full p-2.5"> 
+                                <option selected>Vers</option>
+                                <option value="US">St Barth (SBH)</option>
+                                <option value="CA">St Maarten Juliana (SXM)</option>
+                                <option value="FR">St Martin Grand Case (SFG)</option>
+                                <option value="DE">Guadeloupe (PTP)</option>
+                            </select>
+                        </div>
+                        <div class="flex justify-center">
+                            <div class="btn">
+                                Chercher
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="img-2" class="-mt-10">
+            <div class="relative">
+                <img src="/images/visuel-01.jpg" alt="ile de Saint Barth vue du ciel" class="relative mx-auto w-full max-w-6xl">
+                <img src="/images/visuel-02.jpg" alt="avion" width="220" class="relative ml-14 -mt-24 z-10">
+               <div class="flex justify-end"><img src="/images/avion-globe.svg" alt="logo avion" width="90" class="mr-4"></div> 
+            </div>
+        </section>
+        <section id="services">
+            <div class="px-4">
+                <p class="text-brand"><span><img src="/images/tiret.png" alt="tiret" class="inline mr-2 my-5"></span>Nos Services</p>
+                <h1 class="mb-14">Vols<br>réguliers</h1>
+                <div class="space-y-4 mb-14">
+                    <p><a href="#">Volez entre St Barth et St Martin</a> ou entre <a href="">St Barth et Guadeloupe avec confort</a>.</p>
+                    <p>Avec ses cinq récents Cessna Grand Caravan, St Barth Commuter propose un service de <a href="">vols réguliers quotidiens</a> au départ et à l'arrivée de l'Aéoport international de <a href="">Sint-Maarten Princess Juliana.</a></p>
+                    <p>Nous offrons également plusieurs <a href="">vols quotidiens entre St-Barth et l'aéroport de St-Martin Grand Case</a> qui assure une desserte des îles de la Guadeloupe et la Martinique.</p>
+                    <p>Depuis le début de l’année 2018, notre compagnie s’est adaptée à la situation post IRMA afin de proposer des vols réguliers entre <a href="">St Barthélemy et la Guadeloupe</a> aéroport de Pointe à Pitre.</p>
+                    <p>Nous vous invitons à consulter cette section pour découvrir en détail notre service de vols réguliers et les disponibilités en temps réel.</p>
+                </div>
+                <div class="btn mb-8">Réservez votre billet</div>
+            </div>
+        </section>
+        <section id="destinations">
+            
+        </section>
+    </div>
+</body>
+</html>
